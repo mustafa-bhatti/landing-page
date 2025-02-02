@@ -4,6 +4,8 @@ body {
     box-sizing: border-box;
     font-family: Roboto,'Times New Roman', Times, serif;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 a {
     text-decoration: none;
@@ -16,21 +18,60 @@ ul {
 }
 .logo {
     padding-top: 10px;
-    margin-left:50px;
+    align-items: center;
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    justify-content: center;
     align-items: center;
 }
 .header {
-    background-color: #1F2937;
-    color: white;
     display: flex;
+    /* flex: 1; */
+    /* gap: 300px; */
     justify-content: space-between;
 }
 .links {
     display: flex;
     align-items: center;    
     gap: 24px;
-    margin-right: 90px;
     padding: 14px;
     font-size: 14px;
-
+}
+.header,.secondary-head-container{
+    width: 700px;
+}
+.secondary-head-container {
+    display: flex;
+    padding: 80px 0px;
+    gap: 40px;
+}
+.awesome-text{
+    width: 300px;
+    color:#f3f3f4;
+    
+}
+.hero-img img {
+    width: 340px;
+    height: 230px;
+}
+.awesome-text h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0px;
+}
+.sign-btn{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 12px;
+    background-color: #3882f6;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
 }
