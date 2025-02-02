@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.logo {
+    padding-top: 10px;
+    margin-left:50px;
+    align-items: center;
+}
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    align-items: center;    
+    gap: 28px;
+    margin-right: 90px;
+    padding: 14px;
+    font-size: 14px;
+    color:#c7c8cb
+}
