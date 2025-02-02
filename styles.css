@@ -28,7 +28,7 @@ ul {
 .links {
     display: flex;
     align-items: center;    
-    gap: 28px;
+    gap: 24px;
     margin-right: 90px;
     padding: 14px;
     font-size: 14px;
