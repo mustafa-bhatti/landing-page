@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto,'Times New Roman', Times, serif;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
 }
@@ -143,7 +143,7 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
-
+    margin-bottom: 50px;    
 }
 
 .quote-container p {
@@ -158,4 +158,9 @@ p .author {
     text-align: right;
     font-weight: 700;
     font-size: 24px;
+}
+
+.c-action-container{
+    padding: 40px;
+    display: flex;
 }
