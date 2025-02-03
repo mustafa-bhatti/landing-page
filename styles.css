@@ -32,6 +32,7 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
+
 }
 .links {
     display: flex;
@@ -160,27 +161,29 @@ p .author {
 }
 
 .c-action-container{
-    padding: 80px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 .c-action {
     display: flex;
-    justify-content: space-between;
-    gap: 100px;
     align-items: center;
     background-color: #3882f6;
-    padding: 20px 130px;
+    padding: 20px 20px;
     color: white;
     border-radius: 8px;
+    justify-content: space-around;
+    min-width: 50%;
+    max-width: 90%;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
 }
-.action-content {
-    max-width: 500px;
-    line-height: 10px;
+.action-content > *{
+    margin: 8px;
 }
 .btn {
     border: 2px solid white;
