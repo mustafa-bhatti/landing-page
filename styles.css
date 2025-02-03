@@ -94,6 +94,16 @@ ul {
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
 }
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+}
 .info-img {
     border-radius: 15px;
     width: 150px;
