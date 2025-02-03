@@ -94,3 +94,15 @@ ul {
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
 }
+.info-img {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #1f2937;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
