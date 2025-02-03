@@ -96,6 +96,7 @@ ul {
     -o-border-radius: 12px;
 }
 .info-header{
+    text-align: center;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
@@ -114,9 +115,11 @@ ul {
     margin-top: 30px;
     display: flex;
     gap: 48px;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .card{
+    margin-bottom: 20px;
     text-align: center;
     width: 200px;
     height: 200px;
@@ -143,9 +146,8 @@ ul {
 }
 
 .quote-container p {
-    max-width: 600px;
+    max-width: 700px;
     font-size: 36px;
-    text-align: justify;
     font-weight: 200;
     font-style: italic;
     padding: 80px;
