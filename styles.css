@@ -161,6 +161,33 @@ p .author {
 }
 
 .c-action-container{
-    padding: 40px;
+    padding: 80px;
     display: flex;
+    justify-content: center;
+}
+.c-action {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px 130px;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.action-content {
+    max-width: 500px;
+    line-height: 10px;
+}
+.btn {
+    border: 2px solid white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
